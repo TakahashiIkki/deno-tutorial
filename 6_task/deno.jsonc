@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "test": "RUST_BACKTRACE=1 deno test --allow-env --allow-read",
+    "typecheck": "deno check mod.ts"
+  }
+}
